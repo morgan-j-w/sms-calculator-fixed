@@ -183,7 +183,7 @@ export default function SMSPricingCalculator() {
 
           {/* Stats Cards */}
           <div className="lg:col-span-2 space-y-4 self-start">
-            <Card className="p-6 bg-card border-border shadow-lg">
+            <Card className="p-6 bg-card border-border shadow-lg gap-1">
               <div className="text-sm font-semibold text-muted-foreground mb-2">
                 Your rate
               </div>
@@ -193,7 +193,7 @@ export default function SMSPricingCalculator() {
               <div className="text-sm text-muted-foreground mt-1">per SMS</div>
             </Card>
 
-            <Card className="p-6 bg-card border-border shadow-lg">
+            <Card className="p-6 bg-card border-border shadow-lg gap-1">
               <div className="text-sm font-semibold text-muted-foreground mb-2">
                 Estimated total
               </div>
@@ -205,7 +205,7 @@ export default function SMSPricingCalculator() {
               </div>
             </Card>
 
-            <Card className="p-6 bg-success-soft border-success/30 shadow-lg">
+            <Card className="p-6 bg-success-soft border-success/30 shadow-lg gap-1">
               <div className="flex items-center gap-2 mb-2">
                 <TrendingDown className="w-4 h-4 text-success" />
                 <div className="text-sm font-semibold text-success">
